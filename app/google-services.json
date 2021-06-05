@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825951019714",
+    "project_id": "trafficdevilstest",
+    "storage_bucket": "trafficdevilstest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825951019714:android:f1e03e8deb25d01e3e515b",
+        "android_client_info": {
+          "package_name": "com.mystats.trafficdevilstest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825951019714-4kgvatbat1p6udv0juv15d6fbdpdkf70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9AqFJ9LlRVf7Vz-ec25mxLoZdVqc1VBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825951019714-4kgvatbat1p6udv0juv15d6fbdpdkf70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

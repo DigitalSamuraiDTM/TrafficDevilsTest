@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentStartLoading">
+
+    <fragment
+        android:id="@+id/fragmentStartLoading"
+        android:name="com.mystats.trafficdevilstest.loading.FragmentStartLoading"
+        android:label="fragment_start_loading"
+        tools:layout="@layout/fragment_start_loading" >
+        <action
+            android:id="@+id/action_fragmentStartLoading_to_fragmentWebView"
+            app:destination="@id/fragmentWebView" />
+        <action
+            android:id="@+id/action_fragmentStartLoading_to_fragmentGame"
+            app:destination="@id/fragmentGame" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentWebView"
+        android:name="com.mystats.trafficdevilstest.browser.FragmentWebView"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/fragmentGame"
+        android:name="com.mystats.trafficdevilstest.game.FragmentGame"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
+</navigation>
